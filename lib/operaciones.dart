@@ -18,7 +18,7 @@ void main() {
   stdout.write('Introduce el segundo número entero: ');
   int? numero2 = int.parse(stdin.readLineSync()!);
 
-  // Realizar operaciones aritméticas
+  // Realizar operaciones 
   int suma = numero1 + numero2;
   int resta = numero1 - numero2;
   int multiplicacion = numero1 * numero2;
